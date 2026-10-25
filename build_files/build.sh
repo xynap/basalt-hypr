@@ -16,6 +16,7 @@ dnf5 -y install \
 
 # Install Hyprland
 dnf5 -y copr enable sdegler/hyprland
+dnf5 -y swap terra-xorg-x11-server-Xwayland xorg-x11-server-Xwayland
 dnf5 -y install \
   hyprland \
   hyprland-guiutils \
